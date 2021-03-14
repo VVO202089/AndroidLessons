@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // запускаем основное окно
         setContentView(R.layout.activity_main);
-
         // элементы управления
         toggleButton = findViewById(R.id.toggleButton);
         checkBox = findViewById(R.id.checkBox);
